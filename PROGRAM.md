@@ -126,6 +126,14 @@ drilled per product per quarter); vendor and report handling
 our own systems, and answered only when genuine in identity and
 substance).
 
+**E. Design criteria — the defined-gateway law (adopted 2026-10-21).** The controls above test what a system does; these criteria govern how it is BUILT. The principle: software has defined pathways on which things move — if things are not as required on their given pathway, or are not on the right pathway, they cannot move further.
+
+1. **Defined pathways; everything else is rejected by construction.** Every product declares its pathways — the routes by which data, commands, and authority legitimately move — each with its defined situation (who may move what, in what state, under what conditions). Movement off a declared pathway is stopped by the structure, not filtered after the fact. The declaration is a filed artefact (the pathway inventory, in the product's gate contract family); a gate run diffs the implementation against it and probes off-pathway movement directly. An undeclared flow found in the implementation is a finding; a declared flow with no enforcement point is a finding.
+2. **Structure is not sanitization.** A pathway system stops off-path movement, but malicious content can still ride a VALID pathway. So every gateway validates what rides: strict type-level schemas enforced at the gateway before payloads reach internal handlers, payload validation, memory safety in the handlers, and cryptographic boundary checks. The pathway decides WHERE things may move; validation decides WHAT may ride.
+3. **Dual-zone separation.** A product that holds keys or processes sensitive data separates a PROCESSING zone (business logic over tokens, anonymized, or attested data) from a CRYPTOGRAPHIC zone — an isolated process or thread holding private-key operations, decryption, and raw sensitive data, from which nothing raw crosses back. Inside the zone: local stores encrypted with Argon2id-derived keys, hardware-backed where the platform offers; session keys ephemeral; decryption in buffers zeroed after use, with the zeroing proven in the built artefact.
+4. **Hardware-backed isolation where the platform offers it.** Key-holding mobile apps use the platform's hardware isolation (secure enclave, TEE, protected VMs, protected confirmation) for key custody — proven under the MASVS row (A2), never claimed from a datasheet.
+5. **Protected movement and safe construction.** Traffic between a product's own components and over its first-party sync/telemetry pipelines uses mutual TLS with strict certificate or public-key pinning where the product controls the channel; low-level and isolated modules are written in memory-safe languages.
+
 ## 3. The release bar and the release-candidate rule
 
 A product earns the word "release" only with all five criteria, each
