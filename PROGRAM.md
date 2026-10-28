@@ -9,6 +9,14 @@ keeps its own verdict register and evidence packs private — they
 describe live systems — and says so plainly, here and in its own
 register, whose headline at first publication is **NOT READY**.
 
+**What the NOT READY headline grades.** It grades this program as a
+whole — the full control set described below — not any single product.
+Each product carries its own gate verdict, issued release by release
+from filed evidence, and a product the gate has certified is sold on
+that verdict; its product page says so. The program's NOT READY
+headline does not withdraw a certified product's verdict, and a
+certified product does not lift the program's headline.
+
 **The readiness rule.** A capability, control, or verdict counts only
 when a gate run produced filed evidence for it. Everything else is
 PLANNED, NOT RUN, or PROVISIONAL — named as such, never smoothed
