@@ -14,16 +14,18 @@ badge submission with this tree as the evidence.
 
 | Suite | Covers | Run it | Runs in CI |
 |---|---|---|---|
+| Validator tests (`tests/test_check_docs.py`) | The validator itself: a valid set passes; a broken relative link fails; an empty document fails; external links are not treated as files | `python3 -m unittest discover -s tests -v` | Yes — `.github/workflows/ci.yml` |
 | Document validation (`scripts/check_docs.py`) | Every `*.md` file is non-empty and UTF-8 readable; every relative Markdown link resolves to a file that exists | `python3 scripts/check_docs.py` | Yes — `.github/workflows/ci.yml` |
 
 ## CI gates
 
-- Document validation green on every push and pull request to `main`;
-  a broken relative link or an empty/unreadable document blocks merge.
+- Validator test suite and document validation green on every push and
+  pull request to `main`; a broken relative link, an empty/unreadable
+  document, or a failing validator test blocks merge.
 
 ## Cadence
 
-- Every pull request: document validation.
+- Every pull request: validator tests + document validation.
 - Every release candidate: the release-readiness run (checker + evidence
   reads), per the house Release-Readiness Standard.
 
