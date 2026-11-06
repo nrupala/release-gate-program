@@ -15,5 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Test the document validator
+        run: python3 -m unittest discover -s tests -v
+
       - name: Validate the document set (relative links resolve, files readable)
         run: python3 scripts/check_docs.py
