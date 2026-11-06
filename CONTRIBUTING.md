@@ -24,8 +24,9 @@ changes — corrections, clarifications, and updates to the program text.
   validation script checks that each relative Markdown link in the repository
   points at a file that exists.
 - The full check must pass before a PR is merged. Run it with:
+  `python3 -m unittest discover -s tests` and
   `python3 scripts/check_docs.py`
-  (CI runs the same check on every pull request.)
+  (CI runs the same checks on every pull request.)
 - A check that CI does not run does not count: if you add a check, wire it into
   CI in the same change.
 
