@@ -43,7 +43,7 @@ Guardian Mesh, the defined-flow protection layer this program
 specifies, is at https://github.com/nrupala/guardian-mesh
 (interfaces Apache 2.0, core AGPL-3.0).
 
-## Adopting it
+## Usage
 
 Start with PROGRAM.md §1 (the gate), §2 (the standard), and §3 (the
 bar). Run the gate on one release, file the evidence pack, and let the
