@@ -49,3 +49,22 @@ Start with PROGRAM.md §1 (the gate), §2 (the standard), and §3 (the
 bar). Run the gate on one release, file the evidence pack, and let the
 gap register (§9) tell you the truth about where you stand. Templates
 for gate packs, release records, and spec inputs are on the roadmap.
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE). Commercial terms for
+proprietary use, certification, and support are in
+[COMMERCIAL.md](COMMERCIAL.md).
+
+## Security
+
+Found a vulnerability? Please report it privately — see
+[SECURITY.md](SECURITY.md) for the reporting route (GitHub Private
+Vulnerability Reporting). Do not open a public issue for a security
+vulnerability.
+
+## Contributing
+
+Contributions are welcome — the process and the check policy are in
+[CONTRIBUTING.md](CONTRIBUTING.md). The test plan for this document set
+lives in [TEST-PLAN.md](TEST-PLAN.md).
