@@ -9,7 +9,8 @@ suite validates the documents themselves:
 - every ``*.md`` file is non-empty and decodes as UTF-8.
 
 Exits 0 when the document set is valid, 1 with one line per problem
-otherwise. Run it with: ``python3 scripts/check_docs.py``
+otherwise. Run it with: ``python3 scripts/check_docs.py`` — an optional
+first argument overrides the document root (used by the test suite).
 """
 
 import re
@@ -20,8 +21,13 @@ LINK_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 SKIP_PREFIXES = ("http://", "https://", "mailto:", "#", "data:")
 
 
-def main() -> int:
-    root = Path(__file__).resolve().parent.parent
+def main(argv=None) -> int:
+    args = sys.argv[1:] if argv is None else argv
+    root = (
+        Path(args[0]).resolve()
+        if args
+        else Path(__file__).resolve().parent.parent
+    )
     problems = []
     md_files = sorted(p for p in root.rglob("*.md") if ".git" not in p.parts)
     if not md_files:
