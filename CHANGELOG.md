@@ -10,5 +10,7 @@ one exists.
 ### Added
 
 - SECURITY.md (GitHub Private Vulnerability Reporting route), CONTRIBUTING.md,
-  TEST-PLAN.md, and a CI document-validation check (`scripts/check_docs.py`)
-  that verifies every relative Markdown link in the document set resolves.
+  TEST-PLAN.md, NOTICE, and a CI document-validation check
+  (`scripts/check_docs.py`) that verifies every relative Markdown link in the
+  document set resolves, with a unit test suite for the validator itself
+  (`tests/test_check_docs.py`).
