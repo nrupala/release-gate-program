@@ -1,0 +1,11 @@
+release-gate-program
+Copyright 2026 2351485 ALBERTA INC.
+
+Licensed under the Apache License 2.0 — see the LICENSE file in this repository.
+
+## Third-party components
+
+No third-party components are bundled or redistributed in this repository.
+The program documents cite external standards and frameworks (for example
+MITRE ATT&CK and the OWASP ASVS/MASVS) as references; their texts are not
+included here.
