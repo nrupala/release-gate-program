@@ -1,0 +1,2058 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 110
+  },
+  "nodes": [
+    {
+      "id": "external::(md.parent / path_part).resolve",
+      "kind": "external",
+      "label": "(md.parent / path_part).resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::(self.tmp / \"scripts\").mkdir",
+      "kind": "external",
+      "label": "(self.tmp / \"scripts\").mkdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::LINK_RE.findall",
+      "kind": "external",
+      "label": "LINK_RE.findall",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Path",
+      "kind": "external",
+      "label": "Path",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Path(__file__).resolve",
+      "kind": "external",
+      "label": "Path(__file__).resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Path(args[0]).resolve",
+      "kind": "external",
+      "label": "Path(args[0]).resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::len",
+      "kind": "external",
+      "label": "len",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::md.read_text",
+      "kind": "external",
+      "label": "md.read_text",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::md.relative_to",
+      "kind": "external",
+      "label": "md.relative_to",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path.parent.mkdir",
+      "kind": "external",
+      "label": "path.parent.mkdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path.write_text",
+      "kind": "external",
+      "label": "path.write_text",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pathlib",
+      "kind": "external",
+      "label": "pathlib",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::print",
+      "kind": "external",
+      "label": "print",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::problems.append",
+      "kind": "external",
+      "label": "problems.append",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::re",
+      "kind": "external",
+      "label": "re",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::re.compile",
+      "kind": "external",
+      "label": "re.compile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::resolved.exists",
+      "kind": "external",
+      "label": "resolved.exists",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::root.rglob",
+      "kind": "external",
+      "label": "root.rglob",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::self.addCleanup",
+      "kind": "external",
+      "label": "self.addCleanup",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::self.assertEqual",
+      "kind": "external",
+      "label": "self.assertEqual",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::self.assertIn",
+      "kind": "external",
+      "label": "self.assertIn",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::self.run_validator",
+      "kind": "external",
+      "label": "self.run_validator",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::self.write",
+      "kind": "external",
+      "label": "self.write",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::shutil",
+      "kind": "external",
+      "label": "shutil",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::shutil.copy",
+      "kind": "external",
+      "label": "shutil.copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sorted",
+      "kind": "external",
+      "label": "sorted",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::str",
+      "kind": "external",
+      "label": "str",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::subprocess",
+      "kind": "external",
+      "label": "subprocess",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::subprocess.run",
+      "kind": "external",
+      "label": "subprocess.run",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sys",
+      "kind": "external",
+      "label": "sys",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sys.exit",
+      "kind": "external",
+      "label": "sys.exit",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::target.split",
+      "kind": "external",
+      "label": "target.split",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::target.startswith",
+      "kind": "external",
+      "label": "target.startswith",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::tempfile",
+      "kind": "external",
+      "label": "tempfile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::tempfile.mkdtemp",
+      "kind": "external",
+      "label": "tempfile.mkdtemp",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::text.strip",
+      "kind": "external",
+      "label": "text.strip",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::unittest",
+      "kind": "external",
+      "label": "unittest",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::unittest.main",
+      "kind": "external",
+      "label": "unittest.main",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program",
+      "kind": "package",
+      "label": "release-gate-program",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/COMMERCIAL.md",
+      "kind": "file",
+      "label": "COMMERCIAL.md",
+      "loc": {
+        "file": "COMMERCIAL.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/PROGRAM.md",
+      "kind": "file",
+      "label": "PROGRAM.md",
+      "loc": {
+        "file": "PROGRAM.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/SECURITY.md",
+      "kind": "file",
+      "label": "SECURITY.md",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/TEST-PLAN.md",
+      "kind": "file",
+      "label": "TEST-PLAN.md",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/scripts/check_docs.py",
+      "kind": "file",
+      "label": "scripts/check_docs.py",
+      "loc": {
+        "file": "scripts/check_docs.py",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::/tests/test_check_docs.py",
+      "kind": "file",
+      "label": "tests/test_check_docs.py",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::CHANGELOG",
+      "kind": "module",
+      "label": "release-gate-program::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::COMMERCIAL",
+      "kind": "module",
+      "label": "release-gate-program::COMMERCIAL",
+      "loc": {
+        "file": "COMMERCIAL.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::COMMERCIAL::COMMERCIAL",
+      "kind": "doc",
+      "label": "COMMERCIAL",
+      "loc": {
+        "file": "COMMERCIAL.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::CONTRIBUTING",
+      "kind": "module",
+      "label": "release-gate-program::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::PROGRAM",
+      "kind": "module",
+      "label": "release-gate-program::PROGRAM",
+      "loc": {
+        "file": "PROGRAM.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::PROGRAM::PROGRAM",
+      "kind": "doc",
+      "label": "PROGRAM",
+      "loc": {
+        "file": "PROGRAM.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::README",
+      "kind": "module",
+      "label": "release-gate-program::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::SECURITY",
+      "kind": "module",
+      "label": "release-gate-program::SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::SECURITY::SECURITY",
+      "kind": "doc",
+      "label": "SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::TEST-PLAN",
+      "kind": "module",
+      "label": "release-gate-program::TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::TEST-PLAN::TEST-PLAN",
+      "kind": "doc",
+      "label": "TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::scripts::check_docs",
+      "kind": "module",
+      "label": "release-gate-program::scripts::check_docs",
+      "loc": {
+        "file": "scripts/check_docs.py",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::scripts::check_docs::LINK_RE",
+      "kind": "variable",
+      "label": "LINK_RE",
+      "loc": {
+        "file": "scripts/check_docs.py",
+        "line": 20
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "re"
+      ],
+      "end_line": 20,
+      "signature": "LINK_RE"
+    },
+    {
+      "id": "release-gate-program::scripts::check_docs::SKIP_PREFIXES",
+      "kind": "variable",
+      "label": "SKIP_PREFIXES",
+      "loc": {
+        "file": "scripts/check_docs.py",
+        "line": 21
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 21,
+      "signature": "SKIP_PREFIXES"
+    },
+    {
+      "id": "release-gate-program::scripts::check_docs::main",
+      "kind": "function",
+      "label": "main",
+      "loc": {
+        "file": "scripts/check_docs.py",
+        "line": 24
+      },
+      "tier": "optional",
+      "defines": [
+        "args",
+        "argv",
+        "exc",
+        "links_checked",
+        "md",
+        "md_files",
+        "p",
+        "path_part",
+        "problem",
+        "problems",
+        "resolved",
+        "root",
+        "target",
+        "text"
+      ],
+      "refs": [
+        "LINK_RE",
+        "OSError",
+        "Path",
+        "SKIP_PREFIXES",
+        "UnicodeDecodeError",
+        "__file__",
+        "encoding",
+        "int",
+        "len",
+        "print",
+        "sorted",
+        "sys"
+      ],
+      "end_line": 63,
+      "signature": "def main(argv=None) -> int",
+      "decisions": 14
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs",
+      "kind": "module",
+      "label": "release-gate-program::tests::test_check_docs",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest",
+      "kind": "class",
+      "label": "CheckDocsTest",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 20
+      },
+      "tier": "recommended",
+      "defines": [],
+      "refs": [],
+      "end_line": 66,
+      "signature": "class CheckDocsTest(unittest.TestCase)"
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "kind": "method",
+      "label": "run_validator",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 32
+      },
+      "tier": "optional",
+      "defines": [
+        "self"
+      ],
+      "refs": [
+        "capture_output",
+        "str",
+        "subprocess",
+        "sys",
+        "text",
+        "timeout"
+      ],
+      "end_line": 37,
+      "signature": "def run_validator(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "kind": "method",
+      "label": "setUp",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 21
+      },
+      "tier": "optional",
+      "defines": [
+        "self"
+      ],
+      "refs": [
+        "Path",
+        "VALIDATOR",
+        "prefix",
+        "shutil",
+        "tempfile"
+      ],
+      "end_line": 25,
+      "signature": "def setUp(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "kind": "method",
+      "label": "test_broken_relative_link_fails",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 46
+      },
+      "tier": "optional",
+      "defines": [
+        "result",
+        "self"
+      ],
+      "refs": [],
+      "end_line": 50,
+      "signature": "def test_broken_relative_link_fails(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "kind": "method",
+      "label": "test_empty_markdown_fails",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 52
+      },
+      "tier": "optional",
+      "defines": [
+        "result",
+        "self"
+      ],
+      "refs": [],
+      "end_line": 57,
+      "signature": "def test_empty_markdown_fails(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_external_links_are_not_checked_as_files",
+      "kind": "method",
+      "label": "test_external_links_are_not_checked_as_files",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 59
+      },
+      "tier": "optional",
+      "defines": [
+        "result",
+        "self"
+      ],
+      "refs": [],
+      "end_line": 66,
+      "signature": "def test_external_links_are_not_checked_as_files(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "kind": "method",
+      "label": "test_valid_set_passes",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 39
+      },
+      "tier": "optional",
+      "defines": [
+        "result",
+        "self"
+      ],
+      "refs": [],
+      "end_line": 44,
+      "signature": "def test_valid_set_passes(self)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+      "kind": "method",
+      "label": "write",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 27
+      },
+      "tier": "optional",
+      "defines": [
+        "name",
+        "path",
+        "self",
+        "text"
+      ],
+      "refs": [
+        "encoding",
+        "exist_ok",
+        "parents"
+      ],
+      "end_line": 30,
+      "signature": "def write(self, name, text)",
+      "decisions": 0
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::REPO_ROOT",
+      "kind": "variable",
+      "label": "REPO_ROOT",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 16
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Path",
+        "__file__"
+      ],
+      "end_line": 16,
+      "signature": "REPO_ROOT"
+    },
+    {
+      "id": "release-gate-program::tests::test_check_docs::VALIDATOR",
+      "kind": "variable",
+      "label": "VALIDATOR",
+      "loc": {
+        "file": "tests/test_check_docs.py",
+        "line": 17
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "REPO_ROOT"
+      ],
+      "end_line": 17,
+      "signature": "VALIDATOR"
+    }
+  ],
+  "edges": [
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::COMMERCIAL",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::PROGRAM",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::scripts::check_docs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program",
+      "to": "release-gate-program::tests::test_check_docs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/CHANGELOG.md",
+      "to": "release-gate-program::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/COMMERCIAL.md",
+      "to": "release-gate-program::COMMERCIAL::COMMERCIAL",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/CONTRIBUTING.md",
+      "to": "release-gate-program::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/PROGRAM.md",
+      "to": "release-gate-program::PROGRAM::PROGRAM",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/README.md",
+      "to": "release-gate-program::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/SECURITY.md",
+      "to": "release-gate-program::SECURITY::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/TEST-PLAN.md",
+      "to": "release-gate-program::TEST-PLAN::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/scripts/check_docs.py",
+      "to": "release-gate-program::scripts::check_docs::LINK_RE",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/scripts/check_docs.py",
+      "to": "release-gate-program::scripts::check_docs::SKIP_PREFIXES",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/scripts/check_docs.py",
+      "to": "release-gate-program::scripts::check_docs::main",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_external_links_are_not_checked_as_files",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::REPO_ROOT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::/tests/test_check_docs.py",
+      "to": "release-gate-program::tests::test_check_docs::VALIDATOR",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::CHANGELOG",
+      "to": "release-gate-program::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::COMMERCIAL",
+      "to": "release-gate-program::/COMMERCIAL.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::CONTRIBUTING",
+      "to": "release-gate-program::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::PROGRAM",
+      "to": "release-gate-program::/PROGRAM.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::README",
+      "to": "release-gate-program::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::SECURITY",
+      "to": "release-gate-program::/SECURITY.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::TEST-PLAN",
+      "to": "release-gate-program::/TEST-PLAN.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "external::pathlib",
+      "kind": "imports",
+      "line": 18,
+      "attrs": {
+        "bindings": [
+          "Path"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "external::re",
+      "kind": "imports",
+      "line": 16,
+      "attrs": {
+        "bindings": [
+          "re"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "external::re.compile",
+      "kind": "calls",
+      "line": 20,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "external::sys",
+      "kind": "imports",
+      "line": 17,
+      "attrs": {
+        "bindings": [
+          "sys"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "external::sys.exit",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "release-gate-program::/scripts/check_docs.py",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs",
+      "to": "release-gate-program::scripts::check_docs::main",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::LINK_RE",
+      "to": "external::re",
+      "kind": "reads",
+      "line": 20,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::(md.parent / path_part).resolve",
+      "kind": "calls",
+      "line": 52,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::LINK_RE.findall",
+      "kind": "calls",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::Path",
+      "kind": "calls",
+      "line": 27,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::Path",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::Path(__file__).resolve",
+      "kind": "calls",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::Path(args[0]).resolve",
+      "kind": "calls",
+      "line": 27,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::md.read_text",
+      "kind": "calls",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::md.relative_to",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::print",
+      "kind": "calls",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::print",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::problems.append",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::resolved.exists",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::root.rglob",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::sorted",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::sorted",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::sys",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::target.split",
+      "kind": "calls",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::target.startswith",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "external::text.strip",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "release-gate-program::scripts::check_docs::LINK_RE",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::scripts::check_docs::main",
+      "to": "release-gate-program::scripts::check_docs::SKIP_PREFIXES",
+      "kind": "reads",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::Path",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::Path(__file__).resolve",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::pathlib",
+      "kind": "imports",
+      "line": 14,
+      "attrs": {
+        "bindings": [
+          "Path"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::shutil",
+      "kind": "imports",
+      "line": 9,
+      "attrs": {
+        "bindings": [
+          "shutil"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::subprocess",
+      "kind": "imports",
+      "line": 10,
+      "attrs": {
+        "bindings": [
+          "subprocess"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::sys",
+      "kind": "imports",
+      "line": 11,
+      "attrs": {
+        "bindings": [
+          "sys"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::tempfile",
+      "kind": "imports",
+      "line": 12,
+      "attrs": {
+        "bindings": [
+          "tempfile"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::unittest",
+      "kind": "imports",
+      "line": 13,
+      "attrs": {
+        "bindings": [
+          "unittest"
+        ]
+      }
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "external::unittest.main",
+      "kind": "calls",
+      "line": 70,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs",
+      "to": "release-gate-program::/tests/test_check_docs.py",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "to": "external::str",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "to": "external::str",
+      "kind": "reads",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "to": "external::subprocess",
+      "kind": "reads",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "to": "external::subprocess.run",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+      "to": "external::sys",
+      "kind": "reads",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::(self.tmp / \"scripts\").mkdir",
+      "kind": "calls",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::Path",
+      "kind": "calls",
+      "line": 22,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::Path",
+      "kind": "reads",
+      "line": 21,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::self.addCleanup",
+      "kind": "calls",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::shutil",
+      "kind": "reads",
+      "line": 21,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::shutil.copy",
+      "kind": "calls",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::tempfile",
+      "kind": "reads",
+      "line": 21,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "external::tempfile.mkdtemp",
+      "kind": "calls",
+      "line": 22,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+      "to": "release-gate-program::tests::test_check_docs::VALIDATOR",
+      "kind": "reads",
+      "line": 21,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "to": "external::self.assertEqual",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "to": "external::self.assertIn",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "to": "external::self.run_validator",
+      "kind": "calls",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_broken_relative_link_fails",
+      "to": "external::self.write",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "to": "external::self.assertEqual",
+      "kind": "calls",
+      "line": 56,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "to": "external::self.assertIn",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "to": "external::self.run_validator",
+      "kind": "calls",
+      "line": 55,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_empty_markdown_fails",
+      "to": "external::self.write",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_external_links_are_not_checked_as_files",
+      "to": "external::self.assertEqual",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_external_links_are_not_checked_as_files",
+      "to": "external::self.run_validator",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_external_links_are_not_checked_as_files",
+      "to": "external::self.write",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "to": "external::self.assertEqual",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "to": "external::self.assertIn",
+      "kind": "calls",
+      "line": 44,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "to": "external::self.run_validator",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+      "to": "external::self.write",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+      "to": "external::path.parent.mkdir",
+      "kind": "calls",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+      "to": "external::path.write_text",
+      "kind": "calls",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::REPO_ROOT",
+      "to": "external::Path",
+      "kind": "reads",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "release-gate-program::tests::test_check_docs::VALIDATOR",
+      "to": "release-gate-program::tests::test_check_docs::REPO_ROOT",
+      "kind": "reads",
+      "line": 17,
+      "attrs": {}
+    }
+  ],
+  "audit_head": "f1e240817fea4ce18609c2612ca193c5371f44c57cada7a72b96649d067ce27b",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795021835",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "57d7453deaf0573fea2ec4aac1fadf4646abf000fe71f63fd58890adc0b222e0"
+    },
+    {
+      "seq": 1,
+      "ts": "1795021835",
+      "op": "index_started",
+      "payload": "{\"package\":\"release-gate-program\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/release-gate-program\"}",
+      "prev_hash": "57d7453deaf0573fea2ec4aac1fadf4646abf000fe71f63fd58890adc0b222e0",
+      "hash": "49935c9750ce1821e94bd6c3002f16246ae9eec6c2aefe8c38556204436448c3"
+    },
+    {
+      "seq": 2,
+      "ts": "1795021835",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":31,\"edges\":110,\"files_failed\":0,\"files_indexed\":9,\"nodes\":77}",
+      "prev_hash": "49935c9750ce1821e94bd6c3002f16246ae9eec6c2aefe8c38556204436448c3",
+      "hash": "f1e240817fea4ce18609c2612ca193c5371f44c57cada7a72b96649d067ce27b"
+    }
+  ],
+  "diagnostics": [
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs",
+        "target": "re.compile",
+        "line": 20
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs",
+        "target": "sys.exit",
+        "line": 67
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "(md.parent / path_part).resolve",
+        "line": 52
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "LINK_RE.findall",
+        "line": 45
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "Path",
+        "line": 27
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "Path(__file__).resolve",
+        "line": 29
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "Path(args[0]).resolve",
+        "line": 27
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "len",
+        "line": 60
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "md.read_text",
+        "line": 38
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "md.relative_to",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "print",
+        "line": 58
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "problems.append",
+        "line": 34
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "resolved.exists",
+        "line": 53
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "root.rglob",
+        "line": 32
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "sorted",
+        "line": 32
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "target.split",
+        "line": 48
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "target.startswith",
+        "line": 46
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::scripts::check_docs::main",
+        "target": "text.strip",
+        "line": 42
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs",
+        "target": "unittest.main",
+        "line": 70
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+        "target": "str",
+        "line": 34
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::run_validator",
+        "target": "subprocess.run",
+        "line": 33
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+        "target": "(self.tmp / \"scripts\").mkdir",
+        "line": 24
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+        "target": "self.addCleanup",
+        "line": 23
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+        "target": "shutil.copy",
+        "line": 25
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::setUp",
+        "target": "tempfile.mkdtemp",
+        "line": 22
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+        "target": "self.assertEqual",
+        "line": 43
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+        "target": "self.assertIn",
+        "line": 44
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+        "target": "self.run_validator",
+        "line": 42
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::test_valid_set_passes",
+        "target": "self.write",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+        "target": "path.parent.mkdir",
+        "line": 29
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "release-gate-program::tests::test_check_docs::CheckDocsTest::write",
+        "target": "path.write_text",
+        "line": 30
+      }
+    }
+  ]
+}
